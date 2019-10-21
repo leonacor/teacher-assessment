@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SED BSNET</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo1.gif" />
+  <link rel="stylesheet" href="styles/cssStyle.css" />
+  <link rel="stylesheet" href="styles/cssTemplate.css" />
+  <link rel="stylesheet" href="styles/cssFontFace.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+.width-login{
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  .width-login{
+    width: 350px;
+  }
+}
+@media only screen and (min-width: 993px) {
+
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("images/bg1.jpg");
+
+  min-height:100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/*
+.width-login{
+  width: 350px;
+}*/
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 0px 0px 0px 0px;
+  /*width: 350px;*/
+  height: 100%;
+  /*max-width: 300px;*/
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+/*input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}*/
+
+/* Set a style for the submit button */
+/*.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}*/
+</style>
+</head>
+<body>
+<div class="bg-img">
+  <!--<div class="dees-modal-content dees-card-4 dees-animate-zoom modal-width">
+    <div class="dees-center"><br>
+      <div class="dees-dropdown-click dees-display-topleft div-drop">
+        <span onclick="objResources.menuDrop(1);" class="dees-button dees-large dees-transparent dees-display-topleft dees-text-gray" title="Menú de usuarios"><i class="fa fa-bars"></i></span>
+        <div id="menu-drop" class="dees-dropdown-content dees-bar-block dees-card-4 dees-animate-zoom menu-drop dees-small">
+          <a id="aMenuItem1" onclick="objResources.menuDrop(1);objResources.setTextP(1);" class="dees-bar-item dees-button dees-white">Soy Administrador/a</a>
+          <a id="aMenuItem2" onclick="objResources.menuDrop(1);objResources.setTextP(2);" class="dees-bar-item dees-button dees-white">Soy Profesor/a</a>
+          <a id="aMenuItem3" onclick="objResources.menuDrop(1);objResources.setTextP(3);" class="dees-bar-item dees-button dees-color3-light">Soy Alumno/a</a>
+        </div>
+      </div>
+      <span onclick="document.getElementById('id01').style.display='none'" class="dees-button dees-large dees-transparent dees-display-topright dees-text-gray" title="Cerrar Inicio de sesión"><i class="fa fa-close"></i></span>
+      <img src="images/logo1.gif" alt="img-alt-login" class="dees-circle dees-margin-top img-login" title="Logo UACH" />
+    </div>
+    <form class="dees-container" action="bsns/bsnsLogin.php" method="post">
+      <input id="txtProfile" name="arg3" type="text" value="4" class="dees-hide" />
+      <div class="dees-section dees-margin-bottom">
+        <p id="pProfileText" class="dees-padding dees-center dees-large dees-text-gray">Evalúa a tu Profesor/a</p>
+        <input class="dees-input input-font" name="arg1" type="text" placeholder="&#xf2bd; Escribe tu usuario" required maxlength="15" />
+        <label for="arg1" class="dees-text-gray" title="El usuario debe tener solo números [0-9] y/o letras [a-Z A-Z] máximo 15 caracteres">Usuario <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+        <br><br>
+        <div id="divPwd" class="dees-show">
+          <input class="dees-input input-font" name="arg2" type="password" placeholder="&#xf070; Escribe tu contraseña" required maxlength="4" />
+          <label for="arg2" class="dees-text-gray" title="La contraseña debe tener 4 números [0-9]">Acceso <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+        </div>
+        <hr>
+        <button id="btnSubmit" class="dees-button dees-block dees-section dees-border dees-border-gray dees-color3 dees-block dees-ripple">Iniciar Sesión</button>
+        <input id="btnForgotPwd" type="button" onclick="window.location.href='users/'" class="dees-button dees-section dees-border dees-border-gray dees-text-gray dees-white dees-block dees-ripple dees-show dees-small" value="¿Eres nuevo /a u olvidaste tu contraseña?"/>
+      </div>
+    </form>
+  </div>-->
+  <form action="bsns/bsnsLogin.php" method="post" class="container width-login">
+    <div style="margin-top:80px;">
+    <div class="dees-center dees-margin">
+      <img src="images/logo1.gif" alt="img-alt-login" class="dees-circle dees-margin-top img-login" title="Logo UACH" />
+    </div>
+    <input id="txtProfile" name="arg3" type="text" value="4" class="dees-hide" />
+    <p class="dees-padding dees-center dees-large dees-text-gray">Sistema de evaluación docente</p>
+    <input class="dees-input input-font" name="arg1" type="text" placeholder="&#xf2bd; Escribe tu usuario" required maxlength="15" />
+    <label for="arg1" class="dees-text-gray" title="El usuario debe tener solo números [0-9] y/o letras [a-Z A-Z] máximo 15 caracteres">Usuario <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+    <br><br>
+    <div id="divPwd" class="dees-show">
+      <input class="dees-input input-font" name="arg2" type="password" placeholder="&#xf070; Escribe tu contraseña" required maxlength="4" />
+      <label for="arg2" class="dees-text-gray" title="La contraseña debe tener 4 números [0-9]">Acceso <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+    </div>
+    <hr>
+    <button id="btnSubmit" class="dees-button dees-block dees-section dees-border dees-border-gray dees-color3 dees-block dees-ripple">Iniciar Sesión</button>
+    <input id="btnForgotPwd" type="button" onclick="window.location.href='users/'" class="dees-button dees-section dees-border dees-border-gray dees-text-gray dees-white dees-block dees-ripple dees-show dees-small" value="¿Eres nuevo /a u olvidaste tu contraseña?"/>
+    </div>
+    <!--<h1>Login</h1>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit" class="btn">Login</button>-->
+  </form>
+</div>
+</body>
+</html>

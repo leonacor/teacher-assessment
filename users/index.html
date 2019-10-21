@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="style-full">
+<head>
+<title>SED BSNET</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/x-icon" href="../images/logo1.gif" />
+<link rel="stylesheet" href="../styles/cssStyle.css" />
+<link rel="stylesheet" href="../styles/cssTemplate.css" />
+<link rel="stylesheet" href="../styles/cssFontFace.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body class="style-full">
+<div class="bgimg-style bgimg-index dees-display-container dees-animate-opacity dees-text-white">
+  <div class="dees-display-top dees-padding dees-xlarge dees-indigo div-logo dees-center">
+    <img src="../images/logo1.gif" alt="img-alt-logo" class="img-logo"/> Sistema de Evaluación Docente
+  </div>
+  <div class="dees-row dees-margin">
+   <div class="dees-third dees-container"></div>
+  <div class="dees-card-4 modal-width dees-white dees-third">
+    <div class="dees-center">
+      <img src="../images/logo1.gif" alt="img-alt-login" class="dees-circle dees-margin-top img-login" title="Logo UACH" />
+    </div>
+    <form class="dees-container" action="../bsns/bsnsNewUser.php" method="post">
+      <div class="dees-section dees-margin-bottom">
+        <p id="pProfileText" class="dees-padding dees-center dees-large dees-text-gray">Crear nueva contreaseña</p>
+        <input class="dees-input input-font" name="arg1" type="text" placeholder="&#xf2bd; Escribe tu usuario" required maxlength="15" />
+        <label class="dees-text-gray" title="El usuario debe tener solo números [0-9] y/o letras [a-Z A-Z] máximo 15 caracteres">Usuario <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+        <br><br>
+        <div id="divPwd" class="dees-show">
+          <input class="dees-input input-font" name="arg2" type="password" placeholder="&#xf070; Escribe tu nueva contraseña" required maxlength="4" />
+          <label class="dees-text-gray" title="La contraseña debe tener 4 números [0-9]">Acceso <span class="dees-text-red dees-tiny"><i class="fa fa-asterisk"></i></span></label>
+        </div>
+        <hr>
+        <button id="btnSubmitPwd" class="dees-button dees-block dees-section dees-border dees-border-gray dees-color3 dees-block dees-ripple">Guardar</button>
+      </div>
+    </form>
+  </div>
+  <div class="dees-third dees-container"></div>
+ </div>
+  <div class="dees-display-bottomleft">
+    Producto de <a href="https://www.bsnet.com.mx" target="_blank">BSNET</a>
+  </div>
+</div>
+</body>
+</html>

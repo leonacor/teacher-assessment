@@ -1,0 +1,310 @@
+.desktop-content{
+  left:25px;
+  right:25px;
+  /*background-color: #ff0000;*/
+}
+.desktop-sidebar{
+  width:180px;
+  display:none;
+  z-index:5;
+}
+.divLoader{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+@media only screen and (min-width: 600px) {
+  .desktop-content{
+    left:50px;
+    right:50px;
+    /*background-color: #00ff00;*/
+  }
+  .desktop-sidebar{
+    width:180px;
+    display:none;
+    z-index:5;
+  }
+  .divLoader{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .desktop-content{
+    left:293px;
+    right:220px;
+    /*background-color: #0000ff;*/
+  }
+  .desktop-sidebar{
+    width:66px;
+    display:block;
+    z-index:5;
+  }
+  .divLoader{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+}
+.heightMenuConsoleBox{
+  height:100px;
+}
+.font-family-myFont1{
+  font-family: myFont1;
+}
+.img-loader{
+  width: 100px;
+  height: auto;
+}
+.checkBoxTop{
+  top:4px;
+}
+.checkBoxTopUp{
+  top:-4px;
+}
+.modalWidthBox{
+  width:450px;
+}
+.modalWidthBoxNoTeacher{
+  width:650px;
+}
+.modalButtonMarginBox{
+  margin:5px;
+}
+.inputBoxSize{
+  width:50px;
+  height:30px;
+}
+.modalIndex{
+  z-index:5;
+}
+.widthButtonsModal{
+  width:100px;
+}
+.lblWidthAuto{
+  width:auto;
+}
+.menu-height-button{
+  height:60px;
+}
+.desktop-content-position{
+  position: absolute;
+  height:100%;
+}
+.style-full{
+  font-family: myFont1;
+  height: 100%
+}
+.bgimg-style{
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat:repeat;
+}
+.bgimg-index {
+  background-image: url('../images/bg1.jpg');
+}
+.bgimg-view {
+  background-image: url('../images/bg6.jpg');
+}
+.img-logo{
+  width:38px;
+  height:38px;
+}
+.div-logo{
+  width:100%;
+  height:auto;
+}
+.input-font{
+  font-family: myFont1, FontAwesome;
+}
+.modal-width{
+  max-width:450px
+}
+.img-login{
+  width:60px;
+  height:60px;
+}
+.div-drop{
+  width:250px;
+}
+.menu-drop{
+  position:absolute;
+  top:44px;
+}
+.iconInformationPosition{
+  position:absolute;
+  right:145px;
+}
+.buttonQuTeWidth{
+  width:100px;
+}
+.dees-color5-light,.dees-hover-color5-light:hover{
+  color:#1A237E!important;
+  background-color:#CCC!important
+}
+.dees-text-color5-light,.dees-text-hover-color5-light:hover{
+  color:#CCC!important;
+}
+.dees-color4-light,.dees-hover-color4-light:hover{
+  color:#fff!important;
+  background-color:#90CAF9!important
+}
+.dees-color3,.dees-hover-color3:hover{
+  color:#fff!important;
+  background-color:#1A237E!important
+}
+.dees-color3-light,.dees-hover-color3-light:hover{
+  color:#fff!important;
+  background-color:#7986CB!important
+}
+.dees-text-color3,.dees-text-hover-color3:hover{
+  color:#1A237E!important
+}
+.dees-color2,.dees-hover-color2:hover{
+  color:#fff!important;
+  background-color:#004D40!important
+}
+.dees-color2-light,.dees-hover-color2-light:hover{
+  color:#fff!important;
+  background-color:#4DB6AC!important
+}
+.dees-color1,.dees-hover-color1:hover{
+  color:#fff!important;
+  background-color:#E65100!important
+}
+.dees-color1-light,.dees-hover-color1-light:hover{
+  color:#fff!important;
+  background-color:#FFB74D!important
+}
+.dees-color6,.dees-hover-color6:hover{
+  color:#fff!important;
+  background-color:#FF6F00!important
+}
+.dees-color7,.dees-hover-color7:hover{
+  color:#fff!important;
+  background-color:#00695C!important
+}
+.dees-color8,.dees-hover-color8:hover{
+  color:#fff!important;
+  background-color:#AD1457!important
+}
+.dees-color9,.dees-hover-color9:hover{
+  color:#fff!important;
+  background-color:#33691E!important
+}
+.dees-color10,.dees-hover-color10:hover{
+  color:#fff!important;
+  background-color:#B0BEC5!important
+}
+.dees-color11,.dees-hover-color11:hover{
+  color:#000!important;
+  background-color:#B2EBF2!important
+}
+.containerCursorPointer{
+  cursor: pointer;
+}
+.containerCursorNotAllowed{
+  cursor:not-allowed;
+}
+.container-cb {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container-cb input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #90A4AE;
+}
+.container-cb:hover input ~ .checkmark {
+  background-color: #616161;
+}
+.container-cb input:checked ~ .checkmark {
+  background-color: #2b5797;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container-cb input:checked ~ .checkmark:after {
+  display: block;
+}
+.container-cb .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 7px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container-rb {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container-rb input {
+  position: absolute;
+  opacity: 0;
+}
+.checkmark-rb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container-rb:hover input ~ .checkmark-rb {
+  background-color: #ccc;
+}
+.container-rb input:checked ~ .checkmark-rb {
+  background-color: #2196F3;
+}
+.checkmark-rb:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container-rb input:checked ~ .checkmark-rb:after {
+  display: block;
+}
+.container-rb .checkmark-rb:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.divChartBox{
+  width: 100%;
+  height: 400px;
+}
